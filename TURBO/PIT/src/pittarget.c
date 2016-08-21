@@ -1,4 +1,6 @@
 #include "pittarget.h"
+#include "pitcomm.h"
+
 static void pitTarget_displayInfo() {
 	puts ("---------------------------------------------------------");
 	puts ("TARGET INFORMATION");
@@ -15,8 +17,15 @@ static void pitTarget_displayInfo() {
 		printf("(RANDOM)");
 	}
 	puts ("\n");
-	//TODO
-	// printing Message throttle
+	unsigned int thrtl = pitComm_getMsgThrottle ();
+	unsigned int tmout = pitComm_getRecvTimeout ();
+	printf ("* Message throttling is ");
+	if (!thrtl) {
+		puts ("OFF (as fast as possible)");
+	} else {
+		printf ("set to %u seconds\n", thrtl);
+	}
+	printf ("* Receive timeout is set to %u seconds\n", tmout);
 	// printing recv timeout
 }
 void pitTarget_init() {
