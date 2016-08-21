@@ -1,0 +1,81 @@
+0x08048c54    3 33           sym.call_gmon_start
+0x08048cd8    3 42           sym.main
+0x08048f34    2 21           sym.pitTarget_setDstPort
+0x08048f5c    2 21           sym.pitTarget_setSrcPort
+0x08048f84    2 45           sym.pitTarget_setIpAddrStr
+0x08048fdc    1 13           sym.pitTarget_setNodeNum
+0x08048fec    1 12           sym.pitTarget_getDstPort
+0x08048ff8    1 12           sym.pitTarget_getSrcPort
+0x08049004    1 10           sym.pitTarget_getIpAddr
+0x08049010    1 10           sym.pitTarget_getNodeNum
+0x0804901c    2 11           sym.pitComm_kill
+0x08049040    2 21           sym.pitComm_setMsgThrottle
+0x0804907c    2 25           sym.pitComm_setRecvTimeout
+0x080490ac    4 63           sym.pitComm_startSession
+0x08049215   26 371  -> 585  sub.socket_215
+0x08049388    5 81           sym.pitComm_stopSession
+0x080493dc    3 115          sym.pitComm_sendMsg
+0x08049450   20 420          sym.pitComm_recvMsg
+0x080495f4    7 248          sym.__processHelp
+0x080496ec    1 37           sym.__processSetSrcPort
+0x08049714    1 37           sym.__processSetTargetPort
+0x0804973c    1 23           sym.__processSetTargetIp
+0x08049754    1 37           sym.__processSetTargetNode
+0x0804977c    1 18           sym.__processTarget
+0x08049790    1 37           sym.__processRcvTimeout
+0x080497b8    2 50           sym.__processScript
+0x08049800    7 118  -> 116  sym.__processShellCmd
+0x08049878    1 10           sym.__processQuit
+0x08049884    1 17           sym.pitCmd_init
+0x08049898    2 58           sym.pitCmd_openScriptFile
+0x080498e8   59 1344 -> 1328 sym.pitCmd_processCmdLine
+0x08049e28    6 118          sym.pbdPriv_munge
+0x08049ea0    4 72           sym.pbdPriv_demunge
+0x08049ee8    4 53   -> 51   sym.pbdInteg_calcChecksum
+0x08049f20    3 270          sym.__checksumAndMungePkt
+0x0804a030   11 195  -> 191  sym.__validateDemungeAndChecksumPkt
+0x0804a0f4   12 372          sym.pbdOps_getEnvironmentAddr
+0x0804a268   13 405          sym.pbdOps_read
+0x0804a400   14 431          sym.pbdOps_write
+0x0804a5b0   13 395          sym.pbdOps_execute
+0x0804a73c   31 627          sym.pbdOps_executePkt
+0x0804a9b0    5 135  -> 133  sym.__processPing
+0x0804aa38   17 605  -> 575  sym.__processProbe
+0x0804ad60   11 206          sym.__processClear
+0x0804ae30   34 735  -> 732  sym.__processRead
+0x0804b110    3 132  -> 129  sym.__processWrite
+0x0804b194   18 359  -> 356  sym.__processFwrite
+0x0804b2fc   10 248  -> 245  sym.__processExec
+0x0804b3f4   10 220  -> 218  sym.__processExecPak
+0x0804b4d0   63 1432 -> 1431 sym.__processGetFile
+0x0804ba68   18 564  -> 562  sym.__processLoadAppl
+0x0804bc9c   30 876  -> 872  sym.__processUnloadAppl
+0x0804c008    1 5            sym.pbdCmd_init
+0x0804c010    3 188          sym.pbdCmd_displayHelp
+0x0804c0cc   17 253          sym.pbdCmd_processCmd
+0x0804c1cc   26 775          sym.__sendPktWaitReply
+0x0804c4d4    9 395          sym.__processPing_1
+0x0804c660   14 258          sym.__processSetExfilSrcPort
+0x0804c764   14 258          sym.__processSetExfilDstPort
+0x0804c868   14 251          sym.__processSetExfilSrcIpAddr
+0x0804c964   14 251          sym.__processSetPrimaryLpIpAddr
+0x0804ca60   14 251          sym.__processSetBackupLpIpAddr
+0x0804cb5c   24 528          sym.__processGetExfilLpConfig
+0x0804cd6c   12 198          sym.__processClearExfilLpConfig
+0x0804ce34   38 697  -> 693  sym.__processAddFilter
+0x0804d0f0   17 295          sym.__processDeleteFilter
+0x0804d218   19 309          sym.__processEnableFilter
+0x0804d350   17 295          sym.__processDisableFilter
+0x0804d478   23 758          sym.__processGetFilters
+0x0804d770    9 339          sym.__processGetStatistics
+0x0804d8c4    9 167          sym.__processClearStatistics
+0x0804d96c    9 177          sym.__processUninstall
+0x0804da20    3 60           sym.collectCmd_init
+0x0804da5c    3 188          sym.collectCmd_displayHelp
+0x0804db18   33 523          sym.collectCmd_processCmd
+0x0804dd24   25 1045 -> 1030 sym.__rc6Encrypt
+0x0804e13c   16 242          sym.dataPriv_expandCryptoVar
+0x0804e230   11 73           sym.dataPriv_cmpCounters
+0x0804e27c   22 319  -> 317  sym.dataPriv_counterModeEncrypt
+0x0804e3bc   23 9    -> 326  sym.dataPriv_counterModeDecrypt
+0x0804e3c8   17 268  -> 262  sym.__udivdi3
