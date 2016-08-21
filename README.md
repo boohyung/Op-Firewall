@@ -5,7 +5,8 @@
  (_____)(__)    (__)  (____)(_)\_)(____)(__/\__)(__)(__)(____)(____)
  ```
 
-This repository is my progress on reverse engineering NSA free sample leaks by shadow broker.
+This repository is for reverse engineering NSA free sample leaks by shadow broker.
 
 This is all intended for personal academic use only.
 
+Feel free to make a pull request ;)
