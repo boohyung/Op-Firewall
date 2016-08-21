@@ -10,3 +10,8 @@ This repository is for reverse engineering NSA free sample leaks by shadow broke
 This is all intended for personal academic use only.
 
 Feel free to make a pull request ;)
+## What Is supposed to be here
+
+- Documentaion for each certain file
+- C code representation for a binary
+- Anything else you think It will be usefull
