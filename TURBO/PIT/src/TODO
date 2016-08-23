@@ -26,7 +26,6 @@
 0x080497b8    2 50           sym.__processScript
 0x08049800    7 118  -> 116  sym.__processShellCmd
 0x08049878    1 10           sym.__processQuit
-0x08049884    1 17           sym.pitCmd_init
 0x08049898    2 58           sym.pitCmd_openScriptFile
 0x080498e8   59 1344 -> 1328 sym.pitCmd_processCmdLine
 0x08049e28    6 118          sym.pbdPriv_munge
@@ -50,7 +49,6 @@
 0x0804b4d0   63 1432 -> 1431 sym.__processGetFile
 0x0804ba68   18 564  -> 562  sym.__processLoadAppl
 0x0804bc9c   30 876  -> 872  sym.__processUnloadAppl
-0x0804c008    1 5            sym.pbdCmd_init
 0x0804c010    3 188          sym.pbdCmd_displayHelp
 0x0804c0cc   17 253          sym.pbdCmd_processCmd
 0x0804c1cc   26 775          sym.__sendPktWaitReply
@@ -70,11 +68,9 @@
 0x0804d770    9 339          sym.__processGetStatistics
 0x0804d8c4    9 167          sym.__processClearStatistics
 0x0804d96c    9 177          sym.__processUninstall
-0x0804da20    3 60           sym.collectCmd_init
 0x0804da5c    3 188          sym.collectCmd_displayHelp
 0x0804db18   33 523          sym.collectCmd_processCmd
 0x0804dd24   25 1045 -> 1030 sym.__rc6Encrypt
-0x0804e13c   16 242          sym.dataPriv_expandCryptoVar
 0x0804e230   11 73           sym.dataPriv_cmpCounters
 0x0804e27c   22 319  -> 317  sym.dataPriv_counterModeEncrypt
 0x0804e3bc   23 9    -> 326  sym.dataPriv_counterModeDecrypt
